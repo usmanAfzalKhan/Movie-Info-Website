@@ -1,0 +1,75 @@
+body{
+	background-color: yellow;
+}
+header{
+	text-align: center;
+	color: gray;
+	margin :10px;
+	color: red;
+	font-style: "Times New Roman", Times, san serif, serif, Arial;
+	background-color:yellow;
+}
+h1{
+	text-align: center;
+	color: gray;
+	margin-top:75px;
+	font-style: "Times New Roman", Times, san serif, serif, Arial;
+}
+label{
+    text-indent: 610px;
+	margin-top: -100px;
+	color: gray;
+	font-style: "Times New Roman", Times, san serif, serif, Arial;
+}
+p{
+	text-indent: 1000px;
+	color: gray;
+	margin: 50px;
+	font-style: "Times New Roman", Times, san serif, serif, Arial;
+}
+h4{
+	text-indent: 550px;
+	color: gray;
+	margin: 50px;
+	margin-top: 50PX;	
+	font-style: "Times New Roman", Times, san serif, serif, Arial;
+}
+select{
+  left: -50% !important;
+  right: auto !important;
+  text-align: center !important;
+  transform: translate(730%, 0) !important;
+  color: gray;
+}
+textarea{
+  right: auto !important;
+  transform: translate(140%, 0) !important;
+  font-style: "Times New Roman", Times, san serif, serif, Arial;
+  color: gray;
+}
+#_submit{
+  right: auto !important;
+  transform: translate(900%, 0) !important;
+  font-style: "Times New Roman", Times, san serif, serif, Arial;
+  color: black;
+}
+#_reset{
+  right: auto !important;
+  transform: translate(1100%, 0) !important;
+  font-style: "Times New Roman", Times, san serif, serif, Arial;
+  color: black;
+}
+footer{
+	font-family: Tahoma, Arial, sans-serif;
+	text-indent: 850px;
+}
+footer a
+{
+	color: gray;
+	text-decoration: none;
+}
+footer a:hover
+{
+	color: #DB6D16;
+	text-decoration: none;
+}

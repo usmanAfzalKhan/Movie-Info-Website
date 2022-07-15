@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<header>
+		<h1><strong>Assignment 4</h1>
+		<h3><strong>Usman Khan</strong><h3>
+		<h3><strong>Student ID: 991570330</strong><h3>
+		<h3><strong>Professor: Gursharan Singh Talta</strong><h>
+	</header>
+		<title>Assignment 4 for Usman Khan</title>
+		<link rel='stylesheet' href= '_css/styles.css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>	
+	<body>
+		<hr>
+		<h1><strong>Information Form</strong></h1>
+		<hr>
+		<div>
+		<br>
+			<form action= "thank-you.html" method= "get">
+				<label>First Name: <input type='text' name='fname' autocomplete='off'></label>
+				<br><br>
+				<label>Last: <input type='text' name='fname' autocomplete='off'></label>
+				<br><br>
+				<label>Email: <input type='text' name='fname' autocomplete='off' autofocus></label>
+				<hr>
+				<h4>Gender:</h4>
+				<label><input type='radio' name='gender' value='Female'> Female</label>
+				<br>
+				<label><input type='radio' name='gender' value='Male'> Male</label>
+				<br>
+				<label><input type='radio' name='gender' value='Other'> Other</label>
+				<hr>
+				<h4>Select Places You Would Want to Go</h4>
+				<label><input type='checkbox' name='places' value='United States'> United States</label>
+				<br>
+				<label><input type='checkbox' name='places' value='Japan'> Japan</label>
+				<br>
+				<label><input type='checkbox' name='places' value='Brazil'> Brazil</label>
+				<hr>
+				<h4>Which Campus You Go To:</h4>
+				<select id="campus" text-center><p>
+				<option>Select</option>
+				<option>Hazel</option>
+				<option>Davis</option>
+				<option>Trafalgar</option>
+				</select>
+				<hr>
+				<h4>Select Places Your Favorite Food</h4>
+				<label><input type='radio' name='food' value='Tofu'> Tofu</label>
+				<br>
+				<label><input type='radio' name='food' value='French Fries'> French Fries</label>
+				<br>
+				<label><input type='radio' name='food' value='Pizza'> Pizza</label>
+				<hr>
+				<h4>Tell Us About Yourself</h4>
+				<textarea width= "40" rows="1" cols="50" wrap="physical" name="comment"></textarea>
+				<hr>
+				<input id="_submit" class="btn btn-primary" type="submit" name="submit" value="Submit">
+				<input id="_reset" class="btn btn-primary" type="reset" name="reset" value="Reset">
+			</form>
+		</div>	
+		<footer>
+		Developed by: <a href= "khan484@sheridancollege.ca">Usman Khan
+		</a></footer>
+	</body>
+</html>
